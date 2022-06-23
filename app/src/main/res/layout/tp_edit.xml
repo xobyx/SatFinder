@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/darkGray"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:weightSum="10.0"
+        android:layoutDirection="locale">
+        <TextView
+            android:textSize="16.0sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@id/sat_edit_tp_freq"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.5" />
+        <TextView
+            android:textSize="16.0sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@id/sat_edit_tp_symbolrate"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.5" />
+        <TextView
+            android:textSize="16.0sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@id/sat_edit_tp_polar"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0" />
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/sat_edit_tp_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

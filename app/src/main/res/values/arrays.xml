@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <string-array name="arrayDiseqc">
+        <item>Off</item>
+        <item>Port 1</item>
+        <item>Port 2</item>
+        <item>Port 3</item>
+        <item>Port 4</item>
+    </string-array>
+    <string-array name="arrayLanguage">
+        <item>System</item>
+        <item>English</item>
+        <item>简体中文</item>
+        <item>عربي</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Français</item>
+        <item>Indonesia</item>
+        <item>Pусский</item>
+        <item>Srpski</item>
+        <item>Deutsch</item>
+    </string-array>
+    <string-array name="arrayLnbFreq">
+        <item>9750/10600</item>
+        <item>9750/10700</item>
+        <item>9750/10750</item>
+        <item>5150/5750</item>
+        <item>5750/5150</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>5950</item>
+        <item>9750</item>
+        <item>10000</item>
+        <item>10600</item>
+        <item>10700</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+    </string-array>
+    <string-array name="arrayOnoff">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="arrayPolar">
+        <item>H</item>
+        <item>V</item>
+    </string-array>
+    <string-array name="arraySatelliteDir">
+        <item>E</item>
+        <item>W</item>
+    </string-array>
+    <string-array name="arraySwitch">
+        <item>Off</item>
+        <item>On</item>
+        <item>Auto</item>
+    </string-array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+    <integer-array name="arrayLanguagez">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+</resources>

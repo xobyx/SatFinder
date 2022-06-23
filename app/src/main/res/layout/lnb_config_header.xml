@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@color/darkGray"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="22.0sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="start|center"
+        android:id="@id/lnb_config_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:text="@string/strLNBConfig"
+        android:layout_marginStart="10.0dip"
+        android:layout_marginEnd="10.0dip" />
+    <ImageView
+        android:layout_gravity="end|center"
+        android:id="@id/lnb_config_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_ok"
+        android:layout_marginEnd="10.0dip" />
+</FrameLayout>

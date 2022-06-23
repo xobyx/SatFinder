@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/darkGray"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/lnb_freq"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/main_list_item_size"
+        android:weightSum="10.0"
+        android:layoutDirection="locale"
+        android:layout_marginStart="@dimen/common_layout_padding">
+        <TextView
+            android:textSize="@dimen/main_list_text_size"
+            android:gravity="center_vertical"
+            android:id="@id/lnb_freq_lbl"
+            android:layout_width="160.0dip"
+            android:layout_height="fill_parent"
+            android:text="@string/strLNBFreq" />
+        <Spinner
+            android:id="@id/lnb_freq_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/lnb_22k"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/main_list_item_size"
+        android:weightSum="10.0"
+        android:layoutDirection="locale"
+        android:layout_marginStart="@dimen/common_layout_padding">
+        <TextView
+            android:textSize="@dimen/main_list_text_size"
+            android:gravity="center_vertical"
+            android:id="@id/lnb_22k_lbl"
+            android:layout_width="160.0dip"
+            android:layout_height="fill_parent"
+            android:text="@string/strLNB22K" />
+        <Spinner
+            android:id="@id/lnb_22k_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/lnb_diseqc"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/main_list_item_size"
+        android:weightSum="10.0"
+        android:layoutDirection="locale"
+        android:layout_marginStart="@dimen/common_layout_padding">
+        <TextView
+            android:textSize="@dimen/main_list_text_size"
+            android:gravity="center_vertical"
+            android:id="@id/lnb_diseqc_lbl"
+            android:layout_width="160.0dip"
+            android:layout_height="fill_parent"
+            android:text="@string/strLNBDisqc" />
+        <Spinner
+            android:id="@id/lnb_diseqc_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+</LinearLayout>

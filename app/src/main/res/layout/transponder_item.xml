@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="40.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/tp_group_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_down" />
+    <LinearLayout
+            android:gravity="center"
+            android:layout_width="300dip"
+            android:layout_height="fill_parent"
+            android:weightSum="1"
+            android:layout_marginStart="15.0dip">
+        <TextView
+                android:textSize="16.0sp"
+                android:textColor="@color/white"
+                android:id="@id/transponder_list_frequency"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:layout_marginStart="10.0dip"
+                android:layout_marginEnd="10.0dip"/>
+        <TextView
+                android:textSize="16.0sp"
+                android:textColor="@color/white"
+                android:id="@id/transponder_list_symbol_rate"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:layout_marginStart="10.0dip"
+                android:layout_marginEnd="10.0dip"/>
+        <TextView
+                android:textSize="16.0sp"
+                android:textColor="@color/white"
+                android:id="@id/transponder_list_polization"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:layout_marginStart="10.0dip"
+                android:layout_marginEnd="10.0dip"/>
+        <CheckBox
+                android:id="@+id/edit_tp_fav"
+                android:button="@drawable/favselector"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center_vertical" android:layout_weight="0.1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+<style name="me" parent="Theme.AppCompat">
+    <item name="colorAccent">@color/a</item>
+    <item name="colorPrimary">@color/b</item>
+    <item name="buttonTint">@color/colorAccent</item>
+
+</style>
+
+    <style name="TreeNodeStyleCustom">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:showDividers">middle</item>
+     <item name="android:divider">@android:drawable/divider_horizontal_bright</item>
+    </style>
+
+    <style name="TreeNodeStyleDivided">
+        <item name="android:showDividers">middle</item>
+        <item name="android:divider">@android:drawable/divider_horizontal_bright</item>
+    </style>
+</resources>

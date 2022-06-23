@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_product"
+        android:layout_marginStart="@dimen/common_layout_padding"
+        android:layout_marginEnd="@dimen/common_layout_padding" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_layout_padding"
+        android:layout_marginBottom="@dimen/common_layout_padding"
+        android:layoutDirection="locale"
+        android:layout_marginStart="@dimen/common_layout_padding">
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strAd1"
+            android:textDirection="locale" />
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strAd2"
+            android:textDirection="locale" />
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strAd3"
+            android:textDirection="locale" />
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strAd4"
+            android:textDirection="locale" />
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strAd5"
+            android:textDirection="locale" />
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/white"
+            android:autoLink="all"
+            android:linksClickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strSupport"
+            android:textDirection="locale" />
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/white"
+            android:id="@id/about_chipid"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textDirection="locale" />
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/white"
+            android:id="@id/about_sn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textDirection="locale" />
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/white"
+            android:id="@id/about_hwversion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textDirection="locale" />
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/white"
+            android:id="@id/about_swversion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textDirection="locale" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:textSize="16.0sp"
+    android:textColor="@color/white"
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="40.0dip"
+    android:layout_marginTop="@dimen/common_layout_padding"
+    android:layout_marginBottom="@dimen/common_layout_padding"
+    android:singleLine="true"
+    android:layout_marginStart="@dimen/common_layout_padding"
+    android:layout_marginEnd="@dimen/common_layout_padding"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

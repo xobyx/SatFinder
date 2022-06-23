@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <dimen name="compass_azimuth_text_size">9.0sp</dimen>
+    <dimen name="compass_center_text_size">12.0sp</dimen>
+    <dimen name="compass_scale_text_size">10.0dp</dimen>
+</resources>

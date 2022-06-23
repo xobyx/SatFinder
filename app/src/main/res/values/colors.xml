@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="blue">#2196F3</color>
+    <color name="colorAccent">#FFFF9800</color>
+    <color name="colorPrimary">#FF90CAF9</color>
+
+    <color name="colorPrimaryDark">#a07485f4</color>
+    <color name="compass_azimuth">#000000</color>
+    <color name="compass_azimuth_text">#000000</color>
+    <color name="compass_background">#a07485f4</color>
+    <color name="compass_circle">#c0c0c0</color>
+    <color name="compass_cross">#ffffff</color>
+    <color name="compass_direction_text">#ffffff</color>
+    <color name="compass_scale_line">#ffffff</color>
+    <color name="compass_scale_text">#ffffff</color>
+    <color name="darkGray">#80404040</color>
+    <color name="darkRed">#a0702216</color>
+    <color name="darkerGray">#80202020</color>
+    <color name="green">#a000f000</color>
+    <color name="a">#FFFF9800</color>
+    <color name="b">#FF90CAF9</color>
+    <color name="header_menu">#505050</color>
+    <color name="lightGray">#80808080</color>
+    <color name="lightRed">#a0ea4e4e</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="ocbg">#fb2f88f5</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="red">#FF0000</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="satellite_param_list_background">#404040</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#a0ffff00</color>
+</resources>

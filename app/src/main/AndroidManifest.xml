@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.xobyx.satfinder"
+          android:compileSdkVersion="28">
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <permission android:name="android.permission.INTERNET"/>
+
+    <uses-feature
+            android:name="android.hardware.bluetooth_le"
+            android:required="false"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher_round"
+            android:label="@string/strAppName"
+            android:supportsRtl="true"
+            android:theme="@style/me">
+        <activity
+                android:name=".SettingsActivity"
+                android:label="@string/title_activity_settings">
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"/>
+        <activity
+                android:name=".SatelliteListActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"/>
+        <activity
+                android:name=".SatelliteListActivity2"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"/>
+        <activity
+                android:name=".SatEditActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"/>
+        <activity
+                android:name=".WelcomeActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

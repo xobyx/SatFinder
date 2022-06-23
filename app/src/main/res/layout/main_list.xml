@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            android:minHeight="30dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/antenna_param_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip"
+            android:weightSum="1"
+            android:layoutDirection="locale"
+            android:layout_marginStart="2.0dip"
+            android:layout_marginEnd="5.0dip">
+        <TextView
+
+                android:textSize="@dimen/main_list_text_size"
+                android:textColor="#90CAF9"
+
+                android:id="@id/antenna_label"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/strAntenna"
+                android:layout_gravity="center_vertical"
+                android:maxLines="1"
+                android:layout_weight=".3" android:layout_marginStart="10dip"/>
+        <TextView
+                android:textSize="@dimen/main_list_text_size"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:id="@id/antenna_value"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_weight=".7" android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout
+
+            android:id="@id/satellite_select_list"
+            android:minHeight="30dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layoutDirection="locale"
+            android:layout_marginStart="2.0dip"
+            android:layout_marginEnd="5.0dip">
+        <TextView
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/main_list_text_size"
+                android:textColor="#90CAF9"
+                android:gravity="center_vertical"
+                android:id="@id/satellite_label"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/strSatellite"
+                android:maxLines="1"
+                android:layout_weight=".3" android:layout_marginStart="10dip"/>
+        <com.xobyx.satfinder.SearchableSpinner
+
+                android:id="@id/satellite_spinner"
+                android:gravity="center_vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_weight=".7"
+
+        />
+    </LinearLayout>
+    <LinearLayout
+
+            android:id="@id/transponder_select_list"
+            android:minHeight="30dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layoutDirection="locale"
+            android:layout_marginStart="2.0dip"
+            android:layout_marginEnd="5.0dip">
+        <TextView
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/main_list_text_size"
+                android:textColor="#90CAF9"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:id="@id/transponder_label"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/strTransponder"
+                android:maxLines="1"
+                android:layout_weight=".3" android:layout_marginStart="10dip"/>
+        <com.xobyx.satfinder.SearchableSpinner
+
+                android:id="@id/tp_spinner"
+                android:gravity="center_vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_weight=".7"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <string name="auto_install">تثبيت تلقائي عند اكتمال التنزيل!!!</string>
+    <string name="checking_version">التحقق من الإصدار الجديد</string>
+    <string name="downloading_apk">تحميل الإصدار الأحدث V8Finder APK…</string>
+    <string name="network_unavailable">الشبكة غير متوفرة</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="strAbout">حول V8Finder</string>
+    <string name="strAd1">ميزات V8Finder:</string>
+    <string name="strAd2">1.DVB-S2 إزالة تشكيل متعددة.</string>
+    <string name="strAd3">2. مسح قناة سريع لتردد الترددات اللاسلكية وحيازة معدل الرموز.</string>
+    <string name="strAd4">3. دعم 1 إلى 60M معدل بود الباود.</string>
+    <string name="strAd5">4. IQ اختلال المعوض.</string>
+    <string name="strAngle">°</string>
+    <string name="strAntenna">اللاقط</string>
+    <string name="strAntennaShort">يوجد قصر في اللاقط</string>
+    <string name="strAppName">V8 Finder</string>
+    <string name="strBTConnectFail">فشل اتصال البلوتوث</string>
+    <string name="strBeeper">الصوت</string>
+    <string name="strBlindScan">البحث الأعمى</string>
+    <string name="strCancel">إلغاء</string>
+    <string name="strChannel">القنوات</string>
+    <string name="strChannelUnlock">لاتوجد اشارة جودة للقناة</string>
+    <string name="strChannelsSaved">تم حفظ القنوات</string>
+    <string name="strClose">اغلاق</string>
+    <string name="strCommit">حفظ</string>
+    <string name="strConnected">V8 Finder متصل ب</string>
+    <string name="strDelete">حذف</string>
+    <string name="strDisconnect">V8 Finder قطع الاتصال ب</string>
+    <string name="strDownloadApk">تحميل الإصدار الجديد APK</string>
+    <string name="strE">شرق</string>
+    <string name="strEdit">تعديل</string>
+    <string name="strEditSat">تعديل القمر الصناعي</string>
+    <string name="strElevation">الارتفاع</string>
+    <string name="strFrequency">التردد</string>
+    <string name="strGPSTips">يرجي تشغيل نظام تحديد الموقع لحساب الارتفاع والسمت والانحراف بالنسبة لأحداثياتك</string>
+    <string name="strGTFinderUnConnect">V8 Finder غير متصل ب</string>
+    <string name="strGettingLocation">جار الحصول على الموقع ...</string>
+    <string name="strH">افقي</string>
+    <string name="strL">يسار</string>
+    <string name="strLNB22K">22K</string>
+    <string name="strLNBConfig">اعدادات اللاقط</string>
+    <string name="strLNBDisqc">Diseqc منفذ</string>
+    <string name="strLNBFreq">تردد اللاقط</string>
+    <string name="strLang">اللغة</string>
+    <string name="strLatestVersion">الإصدار الحالي هو أحدث إصدار</string>
+    <string name="strN">شمال</string>
+    <string name="strNo">لا</string>
+    <string name="strNoChannels">لا توجد قنوات للحفظ</string>
+    <string name="strNoEdit">لا يمكن تحرير قاعدة البيانات المحفوظة مسبقا</string>
+    <string name="strOK">حسنا</string>
+    <string name="strOff">مغلق</string>
+    <string name="strOpenGPS">تشغيل نظام تحديد المواقع</string>
+    <string name="strPolar">القطبية</string>
+    <string name="strProgress">جاري البحث</string>
+    <string name="strProgress1">جاري البحث.</string>
+    <string name="strProgress2">جاري البحث. .</string>
+    <string name="strQtDown">أقل جودة اشارة</string>
+    <string name="strQtUp">اعلى جودة اشارة</string>
+    <string name="strQuality">الجودة</string>
+    <string name="strR">يمين</string>
+    <string name="strS">جنوب</string>
+    <string name="strSatName">الاسم</string>
+    <string name="strSatPos">الموقع</string>
+    <string name="strSatellite">القمر الاصطناعي</string>
+    <string name="strSave">حفظ في قاعدة البيانات</string>
+    <string name="strSetting">الضبط</string>
+    <string name="strSkew">الإنحراف</string>
+    <string name="strStart">بدء</string>
+    <string name="strStop">ايقاف</string>
+    <string name="strStrength">القوة</string>
+    <string name="strStrengthDown">اقل قوة اشارة</string>
+    <string name="strStrengthUp">اعلى قوةة اشارة</string>
+    <string name="strSupport">oby</string>
+    <string name="strSymbolRate">معدل الرمز</string>
+    <string name="strTP">التردد</string>
+    <string name="strTipsLowerLeUpper">يجب أن يكون الحد الأدنى أقل من الحد الأعلى</string>
+    <string name="strTipsUpperGeLower">يجب أن يكون الحد الأعلى أكبر من الحد الأدنى</string>
+    <string name="strTpEditor">تعديل التردد</string>
+    <string name="strTransponder">الباقة</string>
+    <string name="strUpdate">تحديث</string>
+    <string name="strV">عمودي</string>
+    <string name="strW">غرب</string>
+    <string name="strWarn">تحذير</string>
+    <string name="update_newest_version">هناك نسخة جديدة ، يرجى الترقية الآن</string>
+    <string name="satellites">الأقمار 📡</string>
+    <string name="about">حول البرنامج 💡</string>
+    <string name="search">بحث 🔍</string>
+    <string name="settings">الإعدادات 🔧</string>
+    <string name="strSelectsat">اخترالقمر الأصطناعي 📡</string>
+    <string name="strAzimuth">السمت</string>
+    <string name="strSelect_tp">أختر تردد</string>
+    <string name="strFavorite">المفضلة</string>
+</resources>

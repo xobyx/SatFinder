@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <include
+            layout="@layout/main_list" />
+        <androidx.drawerlayout.widget.DrawerLayout
+            android:orientation="vertical"
+            android:id="@id/main_drawer_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <androidx.viewpager.widget.ViewPager
+                    android:gravity="center_vertical"
+                    android:id="@id/main_page_viewer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0" />
+                <include
+                    layout="@layout/header_menu" />
+            </LinearLayout>
+            <include
+                layout="@layout/layout_side_menu" />
+        </androidx.drawerlayout.widget.DrawerLayout>
+    </LinearLayout>
+    <com.xobyx.satfinder.MoveImage
+        android:layout_gravity="end"
+        android:id="@id/toolbar_bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_bluetooth_unconnected" />
+</FrameLayout>

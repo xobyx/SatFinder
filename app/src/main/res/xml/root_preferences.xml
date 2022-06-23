@@ -1,0 +1,66 @@
+<PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        >
+
+    <PreferenceCategory
+            app:title="@string/messages_header"
+
+            >
+
+        <EditTextPreference
+                app:key="sat_pos"
+                app:isPreferenceVisible="false"
+                app:defaultValue="0"/>
+        <EditTextPreference
+                app:key="tp_pos"
+                app:isPreferenceVisible="false"
+                app:defaultValue="0"/>
+        <DropDownPreference
+
+                app:entries="@array/arrayLanguage"
+                app:defaultValue="0"
+                app:entryValues="@array/arrayLanguagez"
+                app:title="Application Language"
+                app:icon="@drawable/ic_language_black_24dp"/>
+        <EditTextPreference
+
+                app:title="Maximum Single Strength"
+                app:key="@string/strQtUp"
+                app:defaultValue="16"
+
+                app:icon="@drawable/ic_arrow_upward_black_24dp"/>
+        <EditTextPreference
+                app:title="Minimum Single Strength"
+                app:key="st_down"
+                app:defaultValue="4"
+                app:icon="@drawable/ic_arrow_downward_black_24dp"
+                />
+        <EditTextPreference
+                app:title="Maximum Single Quality strength"
+                app:key="qt_up"
+                app:defaultValue="14"
+                app:icon="@drawable/ic_thumb_up_black_24dp"/>
+        <EditTextPreference
+                app:title="Minimum Single Quality strength"
+                app:key="qt_down"
+                app:defaultValue="2"
+                app:icon="@drawable/ic_thumb_down_black_24dp"/>
+        <CheckBoxPreference
+                app:title="Enable Sound"
+                app:key="beep"
+                app:defaultValue="true"
+                app:icon="@drawable/ic_speaker_black_24dp"/>
+        <!-- this.mSatPos = this.mpref.getInt("sat_pos", 0);
+         this.mTpPos = this.mpref.getInt("tp_pos", 0);
+         this.lang_Select = this.mpref.getInt("lang", 0);
+         this.beep_Select = this.mpref.getInt("beep", 1);
+         this.st_upper_select = this.mpref.getInt("st_up", 16);
+         this.st_down_Select = this.mpref.getInt("st_down", 4);
+         this.qt_upper_select = this.mpref.getInt("qt_up", 14);
+         this.qt_down_Select = this.mpref.getInt("qt_down", 2);-->
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

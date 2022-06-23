@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <dimen name="common_layout_padding">5.0dp</dimen>
+    <dimen name="compass_azimuth_line_stroke">1.0dp</dimen>
+    <dimen name="compass_azimuth_text_size">18.0sp</dimen>
+    <dimen name="compass_azimuth_text_stroke">1.0dp</dimen>
+    <dimen name="compass_center_text_size">24.0sp</dimen>
+    <dimen name="compass_cross_length">180.0dp</dimen>
+    <dimen name="compass_cross_stroke">1.0dp</dimen>
+    <dimen name="compass_direct_text_size">20.0sp</dimen>
+    <dimen name="compass_direct_text_stroke">2.0dp</dimen>
+    <dimen name="compass_long_scale_line">12.0dp</dimen>
+    <dimen name="compass_normal_scale_line">10.0dp</dimen>
+    <dimen name="compass_scale_bold_stroke">3.0dp</dimen>
+    <dimen name="compass_scale_line_stroke">1.0dp</dimen>
+    <dimen name="compass_scale_text_size">14.0sp</dimen>
+    <dimen name="compass_strength_circle_length">35.0dp</dimen>
+    <dimen name="compass_text_circle_length">25.0dp</dimen>
+
+    <dimen name="drawer_item_size">48.0dp</dimen>
+    <dimen name="drawer_text_size">18.0sp</dimen>
+    <dimen name="header_item_size">64.0dp</dimen>
+    <dimen name="main_list_item_size">56.0dp</dimen>
+    <dimen name="main_list_margin">2.0dp</dimen>
+    <dimen name="main_list_text_size">18.0sp</dimen>
+
+    <dimen name="strength_label_text_size">20.0sp</dimen>
+    <dimen name="strength_text_size">22.0sp</dimen>
+    <dimen name="subtitle_corner_radius">2.0dp</dimen>
+    <dimen name="subtitle_outline_width">2.0dp</dimen>
+    <dimen name="subtitle_shadow_offset">2.0dp</dimen>
+    <dimen name="subtitle_shadow_radius">2.0dp</dimen>
+</resources>

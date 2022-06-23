@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:weightSum="5.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<CheckBox
+
+        android:id="@+id/fav"
+        android:button="@drawable/favselector"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+    <TextView
+            android:layout_gravity="center_vertical"
+            android:textSize="16.0sp"
+            android:textColor="@color/white"
+            android:textAlignment="viewStart"
+            android:id="@id/sat_spinner_name_text"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_weight="3.5" android:layout_marginStart="15dip"/>
+    <TextView
+            android:layout_gravity="center_vertical"
+            android:textSize="16.0sp"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:id="@id/sat_spinner_angle_text"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_weight="1.5"
+            android:layout_marginEnd="5.0dip"/>
+</LinearLayout>

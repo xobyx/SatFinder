@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <string name="auto_install">Auto install when download completed!!!</string>
+    <string name="ber">BER：%s</string>
+    <string name="checking_version">Checking the new version</string>
+    <string name="cn">CN：%s dB</string>
+    <string name="downloading_apk">Downloading Newest V8Finder APK…</string>
+    <string name="network_unavailable">Network unavailable</string>
+    <string name="pwr">PWR：%s dBm</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="strAbout">About V8 Finder</string>
+    <string name="strAd1">V8 Finder Features:</string>
+    <string name="strAd2">1.DVB-S2 Multi standard demodulation.</string>
+    <string name="strAd3">2.Fast channel scan for RF frequency and symbol rate acquisition.</string>
+    <string name="strAd4">3.Support 1 to 60M baud symbol rates.</string>
+    <string name="strAd5">4.IQ imbalance compensator.</string>
+    <string name="strAngle">°</string>
+    <string name="strAntenna">Antenna</string>
+    <string name="strAntennaShort">Antenna Overload</string>
+    <string name="strAppName">SatFinder2021</string>
+    <string name="strAzimuth">Azimuth</string>
+    <string name="strBTConnectFail">Bluetooth connect fail</string>
+    <string name="strBeeper">Beeper</string>
+    <string name="strBlindScan">Blind Scan</string>
+    <string name="strCancel">Cancel</string>
+    <string name="strChannel">Channels</string>
+    <string name="strChannelUnlock">Channel is not locked</string>
+    <string name="strChannelsSaved">Channel Saved</string>
+    <string name="strClose">Close</string>
+    <string name="strCommit">Commit</string>
+    <string name="strConnected">V8 Finder Connected</string>
+    <string name="strDelete">DELETE</string>
+    <string name="strDisconnect">V8 Finder Disconnect</string>
+    <string name="strDownloadApk">Download new version APK</string>
+    <string name="strE">E</string>
+    <string name="strEdit">EDIT</string>
+    <string name="strEditSat">Satellite Editor</string>
+    <string name="strElevation">Elevation</string>
+    <string name="strFrequency">Frequency</string>
+    <string name="strGPSTips">Please turn on GPS and the software will calculate elevation, azimuth and skew of the antenna for you.</string>
+    <string name="strGTFinderUnConnect">V8 Finder is not connected</string>
+    <string name="strGettingLocation">Getting location …</string>
+    <string name="strH">H</string>
+    <string name="strL">L</string>
+    <string name="strLNB22K">22K</string>
+    <string name="strLNBConfig">LNB Config</string>
+    <string name="strLNBDisqc">Diseqc port</string>
+    <string name="strLNBFreq">LNB Frequency</string>
+    <string name="strLang">Language</string>
+    <string name="strLatestVersion">Current version is latest version</string>
+    <string name="strN">N</string>
+    <string name="strNo">No</string>
+    <string name="strNoChannels">No channels to save</string>
+    <string name="strNoEdit">Can not edit preset database</string>
+    <string name="strOK">OK</string>
+    <string name="strOff">Off</string>
+    <string name="strOpenGPS">GPS Setting</string>
+    <string name="strPolar">Polar</string>
+    <string name="strProgress">Scanning</string>
+    <string name="strProgress1">Scanning .</string>
+    <string name="strProgress2">Scanning . .</string>
+    <string name="strQtDown">Quality Down</string>
+    <string name="strQtUp">Quality Upper</string>
+    <string name="strQuality">Quality</string>
+    <string name="strR">R</string>
+    <string name="strS">S</string>
+    <string name="strSatName">Name</string>
+    <string name="strSatPos">Position</string>
+    <string name="strSatellite">Satellite</string>
+    <string name="strSave">Save to DB</string>
+    <string name="strSetting">Setting</string>
+    <string name="strSkew">Skew</string>
+    <string name="strStart">Start</string>
+    <string name="strStop">Stop</string>
+    <string name="strStrength">Strength</string>
+    <string name="strStrengthDown">Strength Down</string>
+    <string name="strStrengthUp">Strength Upper</string>
+    <string name="strSupport">Support: www.freesat.cn</string>
+    <string name="strSymbolRate">Symbol Rate</string>
+    <string name="strTP">TP</string>
+    <string name="strTipsLowerLeUpper">The lower limit needs to be less than the upper limit</string>
+    <string name="strTipsUpperGeLower">The upper limit needs to be greater than the lower limit</string>
+    <string name="strTpEditor">TP Editor</string>
+    <string name="strTransponder">Transponder</string>
+    <string name="strUpdate">Update</string>
+    <string name="strV">V</string>
+    <string name="strW">W</string>
+    <string name="strWarn">Warning</string>
+    <string name="the_best_forum_of_satellite_fans">The best forum of satellite fans!</string>
+    <string name="update_newest_version">There is a new version, please upgrade now</string>
+    <string name="satellites">Satellites 📡</string>
+    <string name="about">About 💡</string>
+    <string name="search">Search 🔍</string>
+    <string name="settings">Settings 🔧</string>
+    <string name="strSelectsat">Select Satellite 📡</string>
+    <string name="strSelect_tp">Select TP</string>
+    <string name="strFavorite">Favorite</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">App Settings</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+</resources>

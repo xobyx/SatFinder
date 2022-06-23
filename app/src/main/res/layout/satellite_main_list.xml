@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/darkGray"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layoutDirection="locale">
+        <TextView
+                android:textSize="26.0sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center_vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:text="@string/strSatellite"
+                android:layout_weight="1.0"
+                android:layoutDirection="locale"
+                android:layout_marginStart="10.0dip"/>
+        <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/sat_add_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_add"
+                android:adjustViewBounds="true"
+                android:layout_marginEnd="20.0dip"/>
+    </LinearLayout>
+    <Switch
+            android:text="@string/strFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/switch1_sat_main"
+            android:layout_gravity="right"/>
+    <SearchView
+            android:id="@+id/search_sat_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false" android:layout_marginVertical="15dip"/>
+
+    <View
+            android:layout_gravity="bottom"
+            android:background="@color/colorAccent"
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"/>
+    <ExpandableListView
+        android:id="@id/satellite_main_list"
+        android:background="@color/darkGray"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+<declare-styleable name="VerticalProgress">
+    <attr name="foreEndColor" format="color"/>
+    <attr name="foreStartColor" format="color"/>
+    <attr name="backgroundColor" format="color"/>
+</declare-styleable>
+<declare-styleable name="Compass">
+    <attr name="compass_azimuth" format="color"/>
+    <attr name="compass_azimuth_text" format="color"/>
+    <attr name="compass_background" format="color"/>
+    <attr name="compass_circle" format="color"/>
+    <attr name="compass_cross" format="color"/>
+    <attr name="compass_cross_text" format="color"/>
+    <attr name="compass_direction_text" format="color"/>
+    <attr name="compass_scale_line" format="color"/>
+    <attr name="compass_scale_text" format="color"/>
+</declare-styleable>
+    <declare-styleable name="SearchableSpinner"><attr format="string" name="hintText"/></declare-styleable>
+</resources>

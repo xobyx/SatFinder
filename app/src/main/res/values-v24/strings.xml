@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="satellites">Satellites 📡</string>
+    <string name="about">About 💡</string>
+    <string name="search">Search 🔍</string>
+    <string name="settings">Settings 🔧</string>
+    <string name="strSelectsat">Select Satellite 📡</string>
+</resources>
